@@ -1,19 +1,19 @@
 class Solution {
-    public int findCircleNum(int[][] isConnected) {
-        int count = 0;
-        Boolean[] visited = new Boolean[isConnected.length];
+    public int findCircleNum(int[][] ic) {
+        int count = 0,l = ic.length;
+        Boolean[] v = new Boolean[l];
         Deque<Integer> q = new ArrayDeque<Integer>();
-        Arrays.fill(visited, false);
-        for (int f = 0; f < isConnected.length; f++) {
-            if (visited[f]==false) {
+        Arrays.fill(v, false);
+        for (int f = 0; f < l; f++) {
+            if (v[f]==false) {
                 q.add(f);
-                visited[f] = true;
+                v[f] = true;
                 count++;
                 while (!q.isEmpty()) {
                     int node = q.poll();
-                    for (int i = 0; i < isConnected[node].length; i++) {
-                        if (isConnected[node][i] == 1 && visited[i] == false) {
-                            visited[i] = true;
+                    for (int i = 0; i < ic[node].length; i++) {
+                        if (ic[node][i] == 1 && v[i] == false) {
+                            v[i] = true;
                             q.add(i);
                         }
                     }
