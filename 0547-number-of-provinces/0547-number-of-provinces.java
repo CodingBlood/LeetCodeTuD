@@ -1,25 +1,25 @@
 class Solution {
-    public int findCircleNum(int[][] ic) {
-        int count = 0,l = ic.length;
-        Boolean[] v = new Boolean[l];
-        Deque<Integer> q = new ArrayDeque<Integer>();
-        Arrays.fill(v, false);
-        for (int f = 0; f < l; f++) {
-            if (v[f]==false) {
-                q.add(f);
-                v[f] = true;
-                count++;
-                while (!q.isEmpty()) {
-                    int node = q.poll();
-                    for (int i = 0; i < ic[node].length; i++) {
-                        if (ic[node][i] == 1 && v[i] == false) {
-                            v[i] = true;
-                            q.add(i);
-                        }
-                    }
+    void dfs(int node, Boolean[] v, int[][] isConnected){
+        v[node]=true;
+        for(int i=0;i<isConnected[node].length;i++){
+            if(isConnected[node][i]==1){
+                if(v[i]==false){
+                    dfs(i,v,isConnected);
                 }
             }
         }
-        return count;
+    }
+    public int findCircleNum(int[][] isConnected) {
+        Boolean[] v = new Boolean[isConnected.length];
+        Arrays.fill(v,false);
+        int c=0;
+        for(int i=0;i<isConnected.length;i++){
+            if(v[i]==false){
+                v[i]=true;
+                dfs(i,v,isConnected);
+                c++;
+            }
+        }
+        return c;
     }
 }
