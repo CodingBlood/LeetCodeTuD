@@ -1,24 +1,54 @@
-class Solution { // 5 ms, faster than 99.66%
+
+class Solution {
+    static class P {
+        int i;
+        int j;
+        int k;
+
+        P(int i, int j, int k) {
+            this.i = i;
+            this.j = j;
+            this.k = k;
+        }
+    }
+
     public int[][] updateMatrix(int[][] mat) {
-        int m = mat.length, n = mat[0].length, INF = m + n; // The distance of cells is up to (M+N)
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
-                if (mat[r][c] == 0) continue;
-                int top = INF, left = INF;
-                if (r - 1 >= 0) top = mat[r - 1][c];
-                if (c - 1 >= 0) left = mat[r][c - 1];
-                mat[r][c] = Math.min(top, left) + 1;
+        int[][] sol = new int[mat.length][mat[0].length];
+        int[][] v = new int[mat.length][mat[0].length];
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[0].length; j++) {
+                sol[i][j] = Integer.MAX_VALUE;
             }
         }
-        for (int r = m - 1; r >= 0; r--) {
-            for (int c = n - 1; c >= 0; c--) {
-                if (mat[r][c] == 0) continue;
-                int bottom = INF, right = INF;
-                if (r + 1 < m) bottom = mat[r + 1][c];
-                if (c + 1 < n) right = mat[r][c + 1];
-                mat[r][c] = Math.min(mat[r][c], Math.min(bottom, right) + 1);
+        Deque<P> q = new ArrayDeque<>();
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[0].length; j++) {
+                if (mat[i][j] == 0) {
+                    q.add(new P(i, j, 0));
+                    v[i][j] = 1;
+                    sol[i][j] = 0;
+                }
             }
         }
-        return mat;
+
+        while (!q.isEmpty()) {
+            P p = q.poll();
+            int[] h = new int[] { -1, 0, 1, 0 };
+            int[] vr = new int[] { 0, -1, 0, 1 };
+            for (int y = 0; y < 4; y++) {
+                int m = p.i + h[y];
+                int n = p.j + vr[y];
+                if (m >= 0 && n >= 0 && m < mat.length && n < mat[0].length) {
+                    if (v[m][n] != 1) {
+                        v[m][n] = 1;
+                        sol[m][n] = p.k + 1;
+                        q.add(new P(m, n, p.k + 1));
+                    }
+                }
+            }
+
+        }
+
+        return sol;
     }
 }
