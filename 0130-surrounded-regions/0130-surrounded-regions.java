@@ -5,7 +5,7 @@ class Solution {
         for(int k=0;k<4;k++){
             int m=i+h[k];
             int n=j+vr[k];
-            if(m>0 && n>0 && m<b.length-1 && n<=b[0].length-1){ 
+            if(m>=0 && n>=0 && m<=b.length-1 && n<=b[0].length-1){ 
                 if(b[m][n]=='O' && v[m][n]!=1){
                     v[m][n]=1;
                     dfs(m,n,b,bs,v);
