@@ -9,7 +9,6 @@ class Solution {
             if(m>=0 && n>=0 && m<=b.length-1 && n<=b[0].length-1){ 
                 if(b[m][n]=='O' && bs[m][n]!='O'){
                     dfs(m,n,b,bs);
-                    bs[m][n]='O';
                 }
             }
         }
