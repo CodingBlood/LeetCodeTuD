@@ -1,7 +1,7 @@
 class Solution {
-    public static int[] HD = new int[]{0,1,0,-1};
-    public static int[] VD = new int[]{1,0,-1,0};
-    public class Pair implements Comparable<Pair>{
+    public final int[] HD = new int[]{0,1,0,-1};
+    public final int[] VD = new int[]{1,0,-1,0};
+    public static class Pair implements Comparable<Pair>{
         int i;
         int j;
         int d;
@@ -29,17 +29,13 @@ class Solution {
         pq.add(new Pair(0,0,0));
         while(!pq.isEmpty()){
             Pair t = pq.poll();
+            if (t.d > sp[t.i][t.j]) continue;
+            if (t.i == x - 1 && t.j == y - 1) return t.d;
             for(int i=0;i<4;i++){
                 int m=t.i+HD[i];
                 int n=t.j+VD[i];
                 if(m>=0 && n>=0 && m<x && n<y){
                     int temp = Math.max(t.d,(Math.abs(h[t.i][t.j]-h[m][n])));
-                    // System.out.print(temp);
-                    // System.out.print(" temp ");
-                    // System.out.print(t.d);
-                    // System.out.print(" t.d ");
-                    // System.out.print(sp[m][n]);
-                    // System.out.println(" sp[m][n] ");
                     if(sp[m][n]>temp){
                         sp[m][n]=temp;
                         pq.add(new Pair(m,n,temp));
