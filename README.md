@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [0994-rotting-oranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
@@ -50,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 ## Array
 |  |
@@ -83,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Hash Table
 |  |
 | ------- |
@@ -113,5 +117,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
