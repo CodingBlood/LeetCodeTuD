@@ -12,17 +12,12 @@ class Solution {
         public int compareTo(Pair other){
             return Integer.compare(this.k, other.k);
         }
-        // @Override
-        // public String toString() {
-        //     return "n: " + this.n + ", " + " d: " + this.d + ", " + " k: " + this.k;
-        // }
 
     }
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         List<List<Pair>> adj = new ArrayList<>();
         PriorityQueue<Pair> pq = new PriorityQueue<Pair>();
         int[] d = new int[n];
-        int[] p = new int[n];
         for(int i=0;i<n;i++){
             adj.add(new ArrayList<Pair>());
         }
@@ -30,21 +25,16 @@ class Solution {
             adj.get(flights[i][0]).add(new Pair(flights[i][1],flights[i][2],0));
         }
         Arrays.fill(d,Integer.MAX_VALUE);
-        Arrays.fill(p,Integer.MAX_VALUE);
         d[src]=0;
-        p[src]=src;
         pq.add(new Pair(src,0,0));
         while(!pq.isEmpty()){
             Pair t = pq.poll();
-            // System.out.println("Found in PQ : " + t);
-            // if(t.n==dst && t.k<=k+1)return t.d;
-            // if(t.d>d[t.n])continue;
             for(int i=0;i<adj.get(t.n).size();i++){
-                // System.out.println("here");
-                if(d[adj.get(t.n).get(i).n]>t.d+adj.get(t.n).get(i).d && t.k<=k){
-                    // System.out.println("here1");
-                    d[adj.get(t.n).get(i).n]=t.d+adj.get(t.n).get(i).d;
-                    pq.add(new Pair(adj.get(t.n).get(i).n,d[adj.get(t.n).get(i).n],t.k+1));
+                int crr_node=adj.get(t.n).get(i).n;
+                int crr_dist=adj.get(t.n).get(i).d;
+                if(d[crr_node]>t.d+crr_dist && t.k<=k){
+                    d[crr_node]=t.d+crr_dist;
+                    pq.add(new Pair(crr_node,d[crr_node],t.k+1));
                 }
             }
         }
