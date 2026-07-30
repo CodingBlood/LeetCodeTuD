@@ -1,25 +1,39 @@
 class Solution {
-    void dfs(int node, Boolean[] v, int[][] isConnected){
-        v[node]=true;
-        for(int i=0;i<isConnected[node].length;i++){
-            if(isConnected[node][i]==1){
-                if(v[i]==false){
-                    dfs(i,v,isConnected);
+    public int parent(int i,int[] parent){
+        if(parent[i]!=i){
+            parent[i]=parent(parent[i],parent);
+        }
+        return parent[i]; 
+    }
+    public int findCircleNum(int[][] C) {
+        int n=C.length;
+        int[] size = new int[n];
+        int[] parent = new int[n];
+        for(int i=0;i<n;i++){
+            size[i]=1;
+            parent[i]=i;
+        }
+
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(C[i][j]==1){
+                    int upi = parent(i,parent);
+                    int upj = parent(j,parent);
+                    if(size[upi]>=size[upj]){
+                        size[upi]+=size[upj];
+                        parent[upj]=upi;
+                    }else if(size[upi]<size[upj]){
+                        size[upj]+=size[upi];
+                        parent[upi]=upj;
+                    }
                 }
             }
         }
-    }
-    public int findCircleNum(int[][] isConnected) {
-        Boolean[] v = new Boolean[isConnected.length];
-        Arrays.fill(v,false);
-        int c=0;
-        for(int i=0;i<isConnected.length;i++){
-            if(v[i]==false){
-                v[i]=true;
-                dfs(i,v,isConnected);
-                c++;
-            }
+        Set<Integer> s = new HashSet<Integer>();
+        for(int i=0;i<n;i++){
+            parent(i,parent);
+            s.add(parent[i]);
         }
-        return c;
+        return s.size();
     }
 }
