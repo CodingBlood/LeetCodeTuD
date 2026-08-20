@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0841-keys-and-rooms) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Breadth-First Search
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Union-Find
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
@@ -70,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0997-find-the-town-judge) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
