@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Union-Find
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Array
 |  |
 | ------- |
@@ -78,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 ## Matrix
 |  |
 | ------- |
@@ -168,4 +172,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
+## Math
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
+## Geometry
+|  |
+| ------- |
+| [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
