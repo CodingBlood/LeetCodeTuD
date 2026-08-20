@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
@@ -150,9 +152,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
+## Two Pointers
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
