@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
 | [0994-rotting-oranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0994-rotting-oranges) |
@@ -129,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0997-find-the-town-judge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0997-find-the-town-judge) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 ## String
@@ -137,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 ## Backtracking
 |  |
 | ------- |
@@ -201,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 ## Bellman–Ford Algorithm
 |  |
