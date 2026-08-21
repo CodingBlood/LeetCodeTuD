@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
 | [1615-maximal-network-rank](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1615-maximal-network-rank) |
+| [1761-minimum-degree-of-a-connected-trio-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1761-minimum-degree-of-a-connected-trio-in-a-graph) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
@@ -238,4 +239,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
+## Enumeration
+|  |
+| ------- |
+| [1761-minimum-degree-of-a-connected-trio-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1761-minimum-degree-of-a-connected-trio-in-a-graph) |
 <!---LeetCode Topics End-->
