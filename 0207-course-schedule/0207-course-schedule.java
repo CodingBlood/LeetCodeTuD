@@ -1,29 +1,31 @@
 class Solution {
-    public static boolean dfs(ArrayList<ArrayList<Integer>> graph, int p,int[] v){
-        if (v[p] == 1) return false;
-        if (v[p] == 2) return true;
-        v[p]=1;
-        for (int i : graph.get(p)) {
-            if (!dfs(graph, i, v)) {
-                return false; 
+    // DFS
+    public boolean dfs(int i, int[] v, List<List<Integer>> gp){
+        if(v[i]==2)return true;   // no cycle
+        if(v[i]==1)return false;  // cycle
+
+        v[i]=1;
+        for(int j=0;j<gp.get(i).size();j++){
+            if(!dfs(gp.get(i).get(j),v,gp)){
+                return false;
             }
         }
-        v[p]=2;
+        v[i]=2;
         return true;
     }
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-        for(int i=0;i<numCourses;i++){
-            graph.add(new ArrayList<Integer>());
-        } 
-        for(int i=0;i<prerequisites.length;i++){
-            graph.get(prerequisites[i][0]).add(prerequisites[i][1]);
+    public boolean canFinish(int nC, int[][] prerequisites) {
+        List<List<Integer>> gp = new ArrayList<>();
+        for(int i=0;i<nC;i++){
+            gp.add(new ArrayList<Integer>());
         }
-        int[] v = new int[numCourses];
-        for(int i=0;i<numCourses;i++){
-            if (v[i] == 0) {
-                if (!dfs(graph, i, v)) {
-                    return false; 
+        for(int i=0;i<prerequisites.length;i++){
+            gp.get(prerequisites[i][0]).add(prerequisites[i][1]);
+        }
+        int[] v = new int[nC];
+        for(int i=0;i<nC;i++){
+            if(v[i]==0){
+                if(!dfs(i,v,gp)){
+                    return false;
                 }
             }
         }
