@@ -1,62 +1,51 @@
 class Solution {
-    int[] findNSE(int[] arr) {
-        int n = arr.length;
-        Deque<Integer> s = new ArrayDeque<>();
-        int[] ans = new int[arr.length];
-        Arrays.fill(ans, n);
-        for (int i = 0; i < arr.length; i++) {
-            while (!s.isEmpty() && arr[i] <= arr[s.peek()]) {
-                ans[s.pop()] = i;
+    public int[] nse(int[] arr){
+        Deque<Integer> s = new ArrayDeque<Integer>();
+        int[] sol = new int[arr.length];
+        Arrays.fill(sol, arr.length);
+        for(int i=arr.length-1;i>=0;i--){
+            while(!s.isEmpty()){
+                if(arr[s.peek()]<arr[i]){
+                    sol[i]=s.peek();
+                    break;
+                }else{
+                    s.pop();
+                }
             }
             s.push(i);
         }
-        return ans;
+        return sol;
     }
-
-    int[] findPSE(int[] arr) {
-        Deque<Integer> s = new ArrayDeque<>();
-        int[] ans = new int[arr.length];
-        Arrays.fill(ans, -1);
-        int n = arr.length;
-        for (int i = 0; i < n; i++) {
-            while (!s.isEmpty() && arr[i] <= arr[s.peek()]) {
-                s.pop();
-            }
-            if (!s.isEmpty()) {
-                ans[i] = s.peek();
+    public int[] pse(int[] arr){
+        Deque<Integer> s = new ArrayDeque<Integer>();
+        int[] sol = new int[arr.length];
+        Arrays.fill(sol, -1);
+        for(int i=0;i<arr.length;i++){
+            while(!s.isEmpty()){
+                if(arr[s.peek()]<=arr[i]){
+                    sol[i]=s.peek();
+                    break;
+                }else{
+                    s.pop();
+                }
             }
             s.push(i);
         }
-        return ans;
+        return sol;
     }
-
     public int sumSubarrayMins(int[] arr) {
-        long t = 0;
+        int[] nse = nse(arr);
+        int[] pse = pse(arr);
         long mod = 1000000007;
-        int[] nse = findNSE(arr);
-        int[] pse = findPSE(arr);
-        // for (int i : arr) {
-        //     System.out.print(i + " , ");
-        // }
-        // System.out.println("");
-        // for (int i : nse) {
-        //     System.out.print(i + " , ");
-        // }
-        // System.out.println("");
-        // for (int i : pse) {
-        //     System.out.print(i + " , ");
-        // }
-        // System.out.println("");
-        long tot = 0;
-        for (int i = 0; i < arr.length; i++) {
-            long leftCount = i - pse[i];
-            long rightCount = nse[i] - i;
-
-            long contribution = (leftCount * rightCount) % mod;
-            contribution = (contribution * arr[i]) % mod;
-
-            tot = (tot + contribution) % mod;
+        long sum=0;
+        for(int i=0;i<arr.length;i++){
+            // System.out.println(arr[i] + " n : " + nse[i] + " p : " + pse[i]);
+            long left = (i-pse[i]);
+            long right = (nse[i]-i);
+            long c=(((left*right)%mod)*arr[i])%mod;
+            sum=(sum+c)%mod;
+            // System.out.println((i-pse[i]) + " * " + (nse[i]-i) + " sum : " + sum);
         }
-        return (int) (tot % mod);
+        return (int)sum;
     }
 }
