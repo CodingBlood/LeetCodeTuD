@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
+| [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0997-find-the-town-judge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0997-find-the-town-judge) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
@@ -249,12 +251,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 ## Design
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
