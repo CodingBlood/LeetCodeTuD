@@ -1,5 +1,5 @@
 class MyHashMap {
-    int noOfBuckets = 100;
+    int noOfBuckets = 1000;
     List<List<int[]>> buckets;
     public MyHashMap() {
         buckets = new ArrayList<>();
