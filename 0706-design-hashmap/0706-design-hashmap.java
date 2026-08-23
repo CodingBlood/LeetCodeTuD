@@ -1,21 +1,39 @@
 class MyHashMap {
-    int[] map;
-    int MOD=1000000;
+    int noOfBuckets = 1000;
+    List<List<int[]>> buckets;
     public MyHashMap() {
-        map = new int[MOD];
-        Arrays.fill(map,-1);
+        buckets = new ArrayList<>();
+        for(int i=0;i<noOfBuckets;i++){
+            buckets.add(new ArrayList<>());
+        }
     }
-    
+    public int hash(int key){
+        return key%noOfBuckets;
+    }
     public void put(int key, int value) {
-        map[key%MOD]=value;
+        List<int[]> currentBucket = buckets.get(hash(key));
+        for(int[] pair:currentBucket){
+            if(pair[0]==key){
+                pair[1]=value;
+                return;
+            }
+        }
+        currentBucket.add(new int[]{key,value});
     }
     
     public int get(int key) {
-        return map[key%MOD];
+        List<int[]> currentBucket = buckets.get(hash(key));
+        for(int[] pair:currentBucket){
+            if(pair[0]==key){
+                return pair[1];
+            }
+        }
+        return -1;
     }
     
     public void remove(int key) {
-        map[key%MOD]=-1;
+        List<int[]> currentBucket = buckets.get(hash(key));
+        currentBucket.removeIf(pair -> pair[0] == key);
     }
 }
 
