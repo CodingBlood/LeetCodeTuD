@@ -1,56 +1,54 @@
 class Solution {
+    // lets do toplogical sort using Kahn's algo to detect the min distance of each node from k, if any og the node is still infinity..then return -1
     public static class Pair implements Comparable<Pair>{
-        int n;
-        int d;
-        Pair(int n,int d){
-            this.n=n;
-            this.d=d;
+        int node;
+        int time;
+        Pair(int node, int time){
+            this.node = node;
+            this.time = time;            
         }
         @Override
         public int compareTo(Pair other){
-            return Integer.compare(this.d,other.d);
+            return Integer.compare(this.node,other.node);
         }
-        
         @Override
         public String toString(){
-            return "[ n="+this.n+" , d="+this.d+" ]";
+            return " ( " + this.node + " - " + this.time + " ) ";
         }
     }
     public int networkDelayTime(int[][] times, int n, int k) {
-        PriorityQueue<Pair> pq= new PriorityQueue<Pair>();
-        int[] d = new int[n];
-        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        int[] time = new int[n];
+        List<List<Pair>> adj = new ArrayList<>();
         for(int i=0;i<n;i++){
             adj.add(new ArrayList<Pair>());
         }
         for(int i=0;i<times.length;i++){
-            int s = times[i][0]-1;
-            int e = times[i][1]-1;
-            int w = times[i][2];
-            adj.get(s).add(new Pair(e,w));
+            adj.get(times[i][0]-1).add(new Pair(times[i][1]-1,times[i][2]));
         }
-        // System.out.println(adj);
-        Arrays.fill(d,Integer.MAX_VALUE);
-        d[k-1]=0;
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
         pq.add(new Pair(k-1,0));
+        Arrays.fill(time, Integer.MAX_VALUE);
+        time[k-1]=0;
         while(!pq.isEmpty()){
             Pair t = pq.poll();
-            for(int i=0;i<adj.get(t.n).size();i++){
-                int crr_node = adj.get(t.n).get(i).n;
-                int crr_dist = adj.get(t.n).get(i).d;
-                if(d[crr_node]>crr_dist+t.d){
-                    d[crr_node]=crr_dist+t.d;
-                    pq.add(new Pair(crr_node,d[crr_node]));
+            // System.out.println(t);
+            if(t.time>time[t.node])continue;
+            for(int i=0;i<adj.get(t.node).size();i++){
+                int crr_node = adj.get(t.node).get(i).node;
+                int crr_time = adj.get(t.node).get(i).time;
+                if(time[crr_node]>t.time+crr_time){
+                    time[crr_node]=t.time+crr_time;
+                    pq.add(new Pair(crr_node,time[crr_node]));
                 }
             }
         }
-        int sol = Integer.MIN_VALUE;
-        for(int i:d){
+        int sum=0;
+        for(int i:time){
             if(i==Integer.MAX_VALUE)return -1;
-            if(i>sol){
-                sol=i;
-            }
+            if(i>sum)sum=i;
         }
-        return sol;
+        return sum;
     }
 }
+
+
