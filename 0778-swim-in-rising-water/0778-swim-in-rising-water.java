@@ -28,7 +28,7 @@ class Solution {
         }
     }
     public int swimInWater(int[][] grid) {
-        /// we will create a while loop t...from 0 to infity
+        /// we will create a while loop t...from 0 to infity  NOTE: to save on TC..do not run linear search of t..rather to binary search..0..n*n-1-> low..mid  mid..high and so onn
         // we will keep on merging elements of grid... for each t
         // we will do this untill the UP({0,0})==UP({n-1,n-1})
         // return t
