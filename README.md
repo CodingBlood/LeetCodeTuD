@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Union-Find
 |  |
 | ------- |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Array
 |  |
 | ------- |
@@ -149,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -318,8 +322,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Tarjan's SCC Algorithm
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
+| [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 <!---LeetCode Topics End-->
