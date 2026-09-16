@@ -314,4 +314,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0778-swim-in-rising-water) |
+## Kosaraju's Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
+## Tarjan's SCC Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
