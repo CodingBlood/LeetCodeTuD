@@ -1,28 +1,35 @@
 class Solution {
-    boolean dfs(int i,int[] v,int[][] graph,List<Integer> sol){
-        if(v[i]==2)return true;
-        if(v[i]==1) return false;
-        v[i]=1;
+    public Boolean dfs(int i, int[][] graph, int[] v){
+        if(v[i]==2) return true;
+        if(v[i]==1) return false; 
+        v[i]=1; // started exploring
         for(int j=0;j<graph[i].length;j++){
-            if(!dfs(graph[i][j],v,graph,sol)){
+            int neighbor = graph[i][j];
+            if(v[neighbor]==0){
+                if(!dfs(neighbor,graph,v)){
+                    return false;
+                }
+            }else if(v[neighbor]==1){
                 return false;
             }
-        } 
+        }
         v[i]=2;
-        sol.add(i);
-        return true;
+        return true;    
     }
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int[] v = new int[graph.length];
         Arrays.fill(v,0);
-        List<Integer>  sol = new ArrayList<>();
-
-        for(int i=0;i<v.length;i++){
-            if(dfs(i,v,graph,sol)){
-                continue;
+        List<Integer> sol = new ArrayList<Integer>();
+        for(int i=0;i<graph.length;i++){
+            if(v[i]==0){
+                if(dfs(i,graph,v));
             }
         }
-        sol.sort(null);
+        for(int i=0;i<v.length;i++){
+            if(v[i]==2){
+                sol.add(i);
+            }
+        }
         return sol;
     }
 }
