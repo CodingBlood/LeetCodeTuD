@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0739-daily-temperatures) |
 | [0778-swim-in-rising-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0827-making-a-large-island) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
@@ -225,12 +226,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0735-asteroid-collision](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0739-daily-temperatures) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0739-daily-temperatures) |
 | [0907-sum-of-subarray-minimums](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2104-sum-of-subarray-ranges) |
 ## Two Pointers
