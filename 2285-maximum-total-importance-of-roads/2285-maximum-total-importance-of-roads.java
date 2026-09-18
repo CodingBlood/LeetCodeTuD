@@ -8,10 +8,8 @@ class Solution {
         }
         Arrays.sort(deg,Collections.reverseOrder());
         long sol=0;
-        int v=n;
         for(int i:deg){
-            sol+=(long)i*v;
-            v--;
+            sol+=(long)i*(n--);
         }
         return (long) sol;
     }
