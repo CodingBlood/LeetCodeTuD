@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
+| [2285-maximum-total-importance-of-roads](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2285-maximum-total-importance-of-roads) |
 | [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
 ## Array
 |  |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+| [2285-maximum-total-importance-of-roads](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2285-maximum-total-importance-of-roads) |
 ## Shortest Path
 |  |
 | ------- |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0056-merge-intervals) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
+| [2285-maximum-total-importance-of-roads](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2285-maximum-total-importance-of-roads) |
 ## Bellman–Ford Algorithm
 |  |
 | ------- |
@@ -328,4 +331,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0802-find-eventual-safe-states) |
 | [2360-longest-cycle-in-a-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2360-longest-cycle-in-a-graph) |
+## Greedy
+|  |
+| ------- |
+| [2285-maximum-total-importance-of-roads](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2285-maximum-total-importance-of-roads) |
 <!---LeetCode Topics End-->
