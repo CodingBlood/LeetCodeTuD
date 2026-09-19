@@ -26,8 +26,6 @@ class MinStack {
 
     public void pop() {
         if (i >= 0) {
-            s.remove(i);
-            min.remove(i);
             i--;
         }
     }
