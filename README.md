@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0210-course-schedule-ii) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0685-redundant-connection-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0685-redundant-connection-ii) |
@@ -195,12 +196,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -209,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
