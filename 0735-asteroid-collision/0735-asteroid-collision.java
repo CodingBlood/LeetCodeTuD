@@ -1,33 +1,34 @@
 class Solution {
-    // + = -->   - = <---
+    // +--> <-- - 
     public int[] asteroidCollision(int[] asteroids) {
-        Deque<Integer> stack = new ArrayDeque<>();
-        for(int i: asteroids){
-            int status=1; // 1-> quiet 0-> explosion
-            while(!stack.isEmpty()){
-                int top = stack.pop();
-                if((top>0 && i<0)){
-                    if(Math.abs(top)>Math.abs(i)){
-                        stack.push(top);
-                        status=0;
+        Deque<Integer> s = new ArrayDeque<Integer>();
+        for(int i=0;i<asteroids.length;i++){
+            int ast = asteroids[i];
+            int status=0;
+            while(!s.isEmpty()){
+                int top=s.peek();
+                if(top>0 && ast<0){
+                    if(Math.abs(ast)>top){
+                        s.pop();
+                    }else if(Math.abs(ast)<top){
+                        status=1;//asteroid broke
                         break;
-                    }
-                    if(Math.abs(top)==Math.abs(i)){
-                        status=0;
+                    }else if(Math.abs(ast)==top){
+                        s.pop();
+                        status=1;//asteroid broke
                         break;
                     }
                 }else{
-                    stack.push(top);
                     break;
                 }
             }
-            if(status!=0){
-                stack.push(i);
+            if(status!=1){
+                s.push(ast);
             }
         }
-        int[] sol = new int[stack.size()];
-        for(int i=stack.size()-1;i>=0;i--){
-            sol[i]=stack.pop();
+        int[] sol = new int[s.size()];
+        for (int i = sol.length - 1; i >= 0; i--) {
+            sol[i] = s.pop();
         }
         return sol;
     }
