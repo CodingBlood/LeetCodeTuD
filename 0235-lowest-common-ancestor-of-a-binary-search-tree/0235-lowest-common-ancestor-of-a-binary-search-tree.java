@@ -9,11 +9,6 @@
  */
 
 class Solution {
-    public boolean find(TreeNode root, TreeNode x){
-        if(root==x)return true;
-        if(root==null)return false;
-        return find(root.left,x) || find(root.right,x);
-    }
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root==null || root==p || root==q)return root;
         TreeNode l = lowestCommonAncestor(root.left,p,q);
@@ -23,7 +18,5 @@ class Solution {
         }else{
             return l==null?r:l;
         }
-   
-        
     }
 }
