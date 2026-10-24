@@ -14,22 +14,20 @@
  * }
  */
 class Solution {
-    public int size(TreeNode root) {
-        if (root == null)
-            return 0;
-        return size(root.left) + size(root.right) + 1;
+    public void inorder(TreeNode root, List<Integer> sol){
+        if(root==null){
+            return;
+        } 
+        inorder(root.left, sol);
+        sol.add(root.val);
+        inorder(root.right, sol);
+        return;
     }
-
+    
     public int kthSmallest(TreeNode root, int k) {
-        if (k == 0)
-            return root.val;
-        int l = size(root.left);
-        if (k == l + 1) {
-            return root.val;
-        } else if (k <= l) {
-            return kthSmallest(root.left, k);
-        } else {
-            return kthSmallest(root.right, k - l - 1);
-        }
+        List<Integer> sol = new ArrayList<>();
+        inorder(root, sol);
+        
+        return sol.get(k-1);
     }
 }
