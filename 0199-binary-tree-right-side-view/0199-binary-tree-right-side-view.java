@@ -24,11 +24,11 @@ class Solution {
         }
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<Integer> levelOrder(TreeNode root) {
         // Queue
         Deque<Pair> Q = new ArrayDeque<Pair>();
         //Solution Array
-        List<List<Integer>> lvl = new ArrayList<>();
+        List<Integer> lvl = new ArrayList<>();
         if(root==null)return lvl;
 
         //BFS
@@ -39,9 +39,10 @@ class Solution {
             int cl = t.l;
 
             if (lvl.size() < cl) {
-                lvl.add(new ArrayList<Integer>());
+                lvl.add(cn.val);
+            }else{
+                lvl.set(cl-1,cn.val);
             }
-            lvl.get(cl - 1).add(cn.val);
 
             if (cn.left != null) {
                 Q.add(new Pair(cn.left, cl + 1));
@@ -53,11 +54,6 @@ class Solution {
         return lvl;
     }
     public List<Integer> rightSideView(TreeNode root) {
-        List<List<Integer>> lvl = levelOrder(root);
-        List<Integer> sol = new ArrayList<>();
-        for(int i=0;i<lvl.size();i++){
-            sol.add(lvl.get(i).get(lvl.get(i).size()-1));
-        }
-        return sol;
+        return levelOrder(root);
     }   
 }
