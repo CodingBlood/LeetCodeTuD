@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0035-search-insert-position) |
 | [0098-validate-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0098-validate-binary-search-tree) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0173-binary-search-tree-iterator](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
