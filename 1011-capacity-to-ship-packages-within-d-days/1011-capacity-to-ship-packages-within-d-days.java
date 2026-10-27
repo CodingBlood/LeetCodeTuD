@@ -25,7 +25,6 @@ class Solution {
         int sol = e;
         while (s <= e) {
             int mid = s + (e - s) / 2;
-            System.out.println(mid);
             if (days_toShip_acceptable(weights, mid, days)) {
                 sol = mid;
                 e = mid - 1;
