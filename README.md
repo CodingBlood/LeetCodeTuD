@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0056-merge-intervals) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
