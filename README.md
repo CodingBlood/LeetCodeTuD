@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0704-binary-search) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -457,4 +459,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
