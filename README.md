@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0057-insert-interval) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
