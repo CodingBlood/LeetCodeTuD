@@ -15,17 +15,8 @@ class Solution {
             }else{
                 mp.put(pre[i], mp.getOrDefault(pre[i],0)+1);
             }
-            // System.out.println("pre[i]" + pre[i]);
-            // System.out.println("map");
-            // System.out.println(mp);
         }
         return cnt;
     }
 }
 
-// 1 -1 0   0
-// 1  0 0
-
-// 0
-// 
-// 
