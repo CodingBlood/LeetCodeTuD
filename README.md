@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 | [2104-sum-of-subarray-ranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2104-sum-of-subarray-ranges) |
+| [3862-find-the-smallest-balanced-index](https://github.com/CodingBlood/LeetCodeTuD/tree/master/3862-find-the-smallest-balanced-index) |
 ## Matrix
 |  |
 | ------- |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
+| [3862-find-the-smallest-balanced-index](https://github.com/CodingBlood/LeetCodeTuD/tree/master/3862-find-the-smallest-balanced-index) |
 ## Sliding Window
 |  |
 | ------- |
