@@ -1,31 +1,39 @@
 class Solution {
-    private static final int INF = 1000_000_00;
-    int helper(int[] coins,int amount,int n,int[][] dp){
-        if(n==0)return amount%coins[n]==0 ? amount/coins[0] : -1;
+    public int helper(int[] coins, int amount,int i, int[][] dp){
         if(amount==0)return 0;
-        if(dp[amount][n]!=-1)return dp[amount][n];
-        //not take
-        int result=INF;
-        int not_take = helper(coins,amount,n-1,dp);
-        int take = INF;
-        if(amount>=coins[n]){
-            take = helper(coins,amount-coins[n],n,dp);
+        if(i<0)return -1;
+        if(dp[i][amount]!=-2)return dp[i][amount];
+        if(i == 0) return amount % coins[0] == 0 ? amount / coins[0] : -1;
+        int take = -1;
+        if (amount >= coins[i]) {
+            take = helper(coins, amount - coins[i], i, dp);
         }
-        if(take!=INF && take!=-1){
-            result=Math.min(take+1,result);
+        int nottake = helper(coins,amount,i-1,dp);
+
+
+        if(take<0){
+            if(nottake<0){
+                return dp[i][amount]=-1;
+            }else{
+                return dp[i][amount]=nottake;
+            }
+        }else{
+            if(nottake<0){
+                return dp[i][amount]=take+1;
+            }else{
+                return dp[i][amount]=Math.min(take+1,nottake);
+            }
         }
-        if(not_take!=INF && not_take!=-1){
-            result=Math.min(not_take,result);
-        }
-        return dp[amount][n] = result;
+        
+
 
     }
     public int coinChange(int[] coins, int amount) {
-        int[][] dp = new int[amount + 1][coins.length + 1];
-        for(int[] i:dp){
-            Arrays.fill(i,-1);
+        Arrays.sort(coins);
+        int[][] dp = new int[coins.length][amount+1];
+        for(int[] i: dp){
+            Arrays.fill(i,-2);
         }
-        int sol = helper(coins,amount,coins.length-1,dp);
-        return sol==INF?-1:sol;
+        return helper(coins,amount,coins.length-1,dp);
     }
 }
