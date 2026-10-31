@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0152-maximum-product-subarray](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
