@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0210-course-schedule-ii) |
+| [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0200-number-of-islands) |
+| [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
+| [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -512,9 +515,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Knapsack Problem
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0416-partition-equal-subset-sum) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0416-partition-equal-subset-sum) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
