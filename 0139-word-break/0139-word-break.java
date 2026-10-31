@@ -1,25 +1,25 @@
 class Solution {
 
-    public boolean helper(String s, Set<String> set, Map<String,Boolean> dp) {
+    public boolean helper(String s, Set<String> set, Boolean[] dp) {
         if(s.length()==0)return true;
-        if(dp.containsKey(s))return dp.get(s);
+        if(dp[s.length()]!=null)return dp[s.length()];
         int i=1,n=s.length();
         while(n-i>=0){
             if(set.contains(s.substring(n-i,n))){
                 if(n-i==0)return true;
                 if(helper(s.substring(0,n-i),set,dp)){
-                    dp.put(s,true);
+                    dp[s.length()]=true;
                     return true;
                 }     
             }
             i++;
         }
-        dp.put(s,false);
+        dp[s.length()]=false;
         return false;
     }
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> set=new HashSet<String>();
-        Map<String,Boolean> dp=new HashMap<String, Boolean>();
+        Boolean[] dp = new Boolean[s.length()+1];
         for(String i:wordDict){
             set.add(i);
         }
