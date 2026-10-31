@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0091-decode-ways) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0198-house-robber) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0091-decode-ways) |
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0394-decode-string](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
@@ -465,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 ## Recursion
 |  |
 | ------- |
@@ -492,4 +497,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0062-unique-paths) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
