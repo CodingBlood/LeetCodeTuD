@@ -1,56 +1,54 @@
 class Solution {
-    public int orangesRotting(int[][] grid) {
-        int[][] v = new int[grid.length][grid[0].length];
-        int c=0;
-        for(int[] i: v){
-            Arrays.fill(i,0);
+    class Triplet {
+        int i, j, t;
+
+        Triplet(int i, int j, int t) {
+            this.i = i;
+            this.j = j;
+            this.t = t;
         }
-        Deque<int[]> q= new ArrayDeque<>();
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
-                if(grid[i][j]==2){
-                    v[i][j]=2;
-                    q.add(new int[]{i,j,0});
+    }
+
+    public int orangesRotting(int[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+        int[][] vis = new int[n][m];
+
+        int[] h = new int[] { -1, 0, 1, 0 };
+        int[] v = new int[] { 0, 1, 0, -1 };
+
+        Deque<Triplet> Q = new ArrayDeque<Triplet>();
+        int max_t = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 2) {
+                    Q.add(new Triplet(i, j, 0));
+                    vis[i][j] = 1;
                 }
             }
         }
-        while(!q.isEmpty()){
-            int[] set = q.poll();
-            int i=set[0];
-            int j=set[1];
-            int k=set[2];
-            if(i+1<grid.length && v[i+1][j]==0 && grid[i+1][j]==1){
-                v[i+1][j]=2;
-                grid[i+1][j]=2;
-                q.add(new int[]{i+1,j,k+1});
-            }
-            if(i-1>=0 && v[i-1][j]==0 && grid[i-1][j]==1){
-                v[i-1][j]=2;
-                grid[i-1][j]=2;
-                q.add(new int[]{i-1,j,k+1});
-            }
-            if(j+1<grid[0].length && grid[i][j+1]==1 && v[i][j+1]==0){
-                v[i][j+1]=2;
-                grid[i][j+1]=2;
-                q.add(new int[]{i,j+1,k+1});
-            }
-            if(j-1>=0 && grid[i][j-1]==1 && v[i][j-1]==0){
-                v[i][j-1]=2;
-                grid[i][j-1]=2;
-                q.add(new int[]{i,j-1,k+1});
-            }
-            if(k>c){
-                c=k;
+
+        while (!Q.isEmpty()) {
+            Triplet t = Q.poll();
+            max_t = Math.max(max_t, t.t);
+            for (int d = 0; d < 4; d++) {
+                int ch = t.i + h[d];
+                int vh = t.j + v[d];
+                if (ch >= 0 && vh >= 0 && ch < n && vh < m && grid[ch][vh] == 1 && vis[ch][vh] == 0) {
+                    Q.add(new Triplet(ch, vh, t.t + 1));
+                    vis[ch][vh] = 1;
+                }
             }
         }
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
-                if(grid[i][j]==1){
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (vis[i][j] == 0 && grid[i][j] == 1) {
                     return -1;
                 }
             }
         }
-    return c;
-
+        return max_t;
     }
 }
