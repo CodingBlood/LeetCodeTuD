@@ -7,13 +7,14 @@ class Solution {
         }
     }
     public void dfs(char[][] grid,int[][] vis,int i,int j){
+        vis[i][j]=1;
         int[] h = new int[]{0,-1,0,1};
         int[] v = new int[]{1,0,-1,0};
         for(int d=0;d<4;d++){
             int ch=i+h[d];
             int vh=j+v[d];
             if(ch>=0 && vh>=0 && ch<grid.length && vh<grid[0].length && grid[ch][vh]=='1' && vis[ch][vh]==0){
-                vis[ch][vh]=1;
+                // vis[ch][vh]=1;
                 dfs(grid,vis,ch,vh);
             }
         }
@@ -28,7 +29,6 @@ class Solution {
         for(int i=0;i<grid.length;i++){
             for(int j=0;j<grid[0].length;j++){
                 if(grid[i][j]=='1' && vis[i][j]==0){
-                    vis[i][j]=1;
                     dfs(grid,vis,i,j);
                     c++;
                 }
