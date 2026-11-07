@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0518-coin-change-ii) |
+| [0525-contiguous-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0695-max-area-of-island) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0525-contiguous-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
@@ -500,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0525-contiguous-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
 | [3862-find-the-smallest-balanced-index](https://github.com/CodingBlood/LeetCodeTuD/tree/master/3862-find-the-smallest-balanced-index) |
 ## Sliding Window
