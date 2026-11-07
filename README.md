@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0841-keys-and-rooms) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
+| [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 | [1514-path-with-maximum-probability](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0997-find-the-town-judge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0997-find-the-town-judge) |
+| [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 ## String
 |  |
@@ -274,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -312,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
