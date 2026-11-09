@@ -546,4 +546,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0518-coin-change-ii) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
