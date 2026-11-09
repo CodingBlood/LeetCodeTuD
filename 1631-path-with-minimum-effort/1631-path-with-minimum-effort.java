@@ -1,48 +1,41 @@
 class Solution {
-    public final int[] HD = new int[]{0,1,0,-1};
-    public final int[] VD = new int[]{1,0,-1,0};
-    public static class Pair implements Comparable<Pair>{
-        int i;
-        int j;
-        int d;
-        Pair(int i, int j, int d){
-            this.i = i;
-            this.j = j;
-            this.d = d;
+    class Triplet implements Comparable<Triplet>{
+        int i,j,k;
+        Triplet(int i,int j,int k){
+            this.i=i;
+            this.j=j;
+            this.k=k;
         }
         @Override
-        public int compareTo(Pair other){
-            return Integer.compare(this.d,other.d);
+        public int compareTo(Triplet other){
+            return Integer.compare(this.k,other.k);
         }
     }
-    public int minimumEffortPath(int[][] h) {
-        int x=h.length;
-        int y=h[0].length;
-        PriorityQueue<Pair> pq = new PriorityQueue<Pair>();
-        int[][] sp = new int[x][y];
-        for(int i=0;i<x;i++){
-            for(int j=0;j<y;j++){
-                sp[i][j]=Integer.MAX_VALUE;
-            }
+    public int minimumEffortPath(int[][] heights) {
+        PriorityQueue<Triplet> pq = new PriorityQueue<>();
+        int[][] D = new int[heights.length][heights[0].length];
+        for(int[] i: D){
+            Arrays.fill(i, Integer.MAX_VALUE);
         }
-        sp[0][0]=0;
-        pq.add(new Pair(0,0,0));
+        pq.add(new Triplet(0,0,0));
+        D[0][0]=0;
+        int[] h = new int[]{-1,0,1,0};
+        int[] v = new int[]{0,-1,0,1};
+
         while(!pq.isEmpty()){
-            Pair t = pq.poll();
-            if (t.d > sp[t.i][t.j]) continue;
-            if (t.i == x - 1 && t.j == y - 1) return t.d;
+            Triplet t = pq.poll();
             for(int i=0;i<4;i++){
-                int m=t.i+HD[i];
-                int n=t.j+VD[i];
-                if(m>=0 && n>=0 && m<x && n<y){
-                    int temp = Math.max(t.d,(Math.abs(h[t.i][t.j]-h[m][n])));
-                    if(sp[m][n]>temp){
-                        sp[m][n]=temp;
-                        pq.add(new Pair(m,n,temp));
+                int ch = t.i+h[i];
+                int vh = t.j+v[i];
+                if(ch>=0 && vh>=0 && ch<heights.length && vh<heights[0].length){
+                    int crr_dist = Math.max(t.k,Math.abs(heights[t.i][t.j]-heights[ch][vh]));
+                    if(D[ch][vh]>crr_dist){
+                        D[ch][vh]=crr_dist;
+                        pq.add(new Triplet(ch,vh,crr_dist));
                     }
                 }
             }
         }
-        return sp[x-1][y-1];
+        return D[heights.length-1][heights[0].length-1];
     }
 }
