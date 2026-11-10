@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0662-maximum-width-of-binary-tree) |
 | [0685-redundant-connection-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0685-redundant-connection-ii) |
+| [0690-employee-importance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0662-maximum-width-of-binary-tree) |
 | [0685-redundant-connection-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0685-redundant-connection-ii) |
+| [0690-employee-importance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0733-flood-fill) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
+| [0690-employee-importance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0704-binary-search) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
@@ -240,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
 | [0525-contiguous-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0560-subarray-sum-equals-k) |
+| [0690-employee-importance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0690-employee-importance) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -280,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0690-employee-importance) |
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
