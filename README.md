@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 | [1514-path-with-maximum-probability](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1584-min-cost-to-connect-all-points) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 ## Topological Sort
 |  |
