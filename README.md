@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
+| [1376-time-needed-to-inform-all-employees](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1376-time-needed-to-inform-all-employees) |
 ## Binary Search Tree
 |  |
 | ------- |
