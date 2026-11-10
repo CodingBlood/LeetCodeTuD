@@ -1,29 +1,29 @@
 class Solution {
     class DSU{
-        List<Integer> parent = new ArrayList<Integer>();
-        List<Integer> rank = new ArrayList<Integer>();
+        List<Integer> parent = new ArrayList<>();
+        List<Integer> size = new ArrayList<>();
         DSU(int n){
             for(int i=0;i<n;i++){
                 parent.add(i);
-                rank.add(1);
+                size.add(1);
             }
         }
         public int UP(int node){
-            if(node==parent.get(node))return node;
+            if(parent.get(node)==node)return node;
             int up = UP(parent.get(node));
             parent.set(node,up);
             return up;
         }
-        public void UbyRank(int u,int v){
-            int uup=UP(u);
-            int vup=UP(v);
-            if(uup==vup)return;
-            if(rank.get(uup)>rank.get(vup)){
-                parent.set(vup,uup);
-                rank.set(uup,rank.get(uup)+rank.get(vup));
+        public void UbyRank(int u, int v){
+            int upu=UP(u);
+            int upv=UP(v);
+            if(upu==upv)return;
+            if(size.get(upu)>size.get(upv)){
+                parent.set(upv,upu);
+                size.set(upu,size.get(upu)+size.get(upv));
             }else{
-                parent.set(uup,vup);
-                rank.set(vup,rank.get(uup)+rank.get(vup));
+                parent.set(upu,upv);
+                size.set(upv,size.get(upu)+size.get(upv));
             }
         }
     }
