@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0057-insert-interval) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0126-word-ladder-ii) |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0058-length-of-last-word) |
 | [0071-simplify-path](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0076-minimum-window-substring) |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0215-kth-largest-element-in-an-array) |
 | [0721-accounts-merge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0721-accounts-merge) |
