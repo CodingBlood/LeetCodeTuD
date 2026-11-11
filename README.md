@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0841-keys-and-rooms) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1020-number-of-enclaves) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1376-time-needed-to-inform-all-employees) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1376-time-needed-to-inform-all-employees) |
 ## Binary Search Tree
@@ -332,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 ## Heap (Priority Queue)
 |  |
