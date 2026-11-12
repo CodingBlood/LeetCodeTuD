@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
 | [2104-sum-of-subarray-ranges](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2104-sum-of-subarray-ranges) |
+| [2352-equal-row-and-column-pairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2352-equal-row-and-column-pairs) |
 | [3862-find-the-smallest-balanced-index](https://github.com/CodingBlood/LeetCodeTuD/tree/master/3862-find-the-smallest-balanced-index) |
 ## Matrix
 |  |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1631-path-with-minimum-effort](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1631-path-with-minimum-effort) |
+| [2352-equal-row-and-column-pairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2352-equal-row-and-column-pairs) |
 ## Topological Sort
 |  |
 | ------- |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0997-find-the-town-judge](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0997-find-the-town-judge) |
 | [1110-delete-nodes-and-return-forest](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1110-delete-nodes-and-return-forest) |
 | [1311-get-watched-videos-by-your-friends](https://github.com/CodingBlood/LeetCodeTuD/tree/master/1311-get-watched-videos-by-your-friends) |
+| [2352-equal-row-and-column-pairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2352-equal-row-and-column-pairs) |
 ## String
 |  |
 | ------- |
@@ -477,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0735-asteroid-collision) |
+| [2352-equal-row-and-column-pairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2352-equal-row-and-column-pairs) |
 ## Bipartite Graph
 |  |
 | ------- |
