@@ -460,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0146-lru-cache) |
+| [0203-remove-linked-list-elements](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0203-remove-linked-list-elements) |
 | [0706-design-hashmap](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0706-design-hashmap) |
 ## Design
 |  |
@@ -529,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0203-remove-linked-list-elements) |
 | [0394-decode-string](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0394-decode-string) |
 ## DP on Trees
 |  |
