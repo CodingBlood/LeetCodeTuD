@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0091-decode-ways) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0150-evaluate-reverse-polish-notation) |
 | [2101-detonate-the-maximum-bombs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2101-detonate-the-maximum-bombs) |
@@ -484,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0067-add-binary) |
 | [0735-asteroid-collision](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0735-asteroid-collision) |
 | [2352-equal-row-and-column-pairs](https://github.com/CodingBlood/LeetCodeTuD/tree/master/2352-equal-row-and-column-pairs) |
 ## Bipartite Graph
@@ -604,4 +607,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/CodingBlood/LeetCodeTuD/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
